@@ -1,0 +1,9 @@
+node_modules
+.env
+data/auth
+data/settings.json
+data/system-prompt.md
+data/leads.jsonl
+data/leads.csv
+*.log
+.DS_Store

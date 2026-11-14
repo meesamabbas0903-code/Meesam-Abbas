@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-bot-qr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WhatsApp chatbot with QR-code pairing (Baileys) \u2014 scan from Linked Devices, plus a shareable customer QR and web dashboard.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "qr": "node scripts/qr-terminal.js",
+    "test": "node scripts/simulate.js --auto",
+    "simulate": "node scripts/simulate.js",
+    "selftest": "node scripts/selftest.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.24",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^6.49.0",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
