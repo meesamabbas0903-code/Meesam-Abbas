@@ -5,7 +5,7 @@
   "type": "module",
   "description": "WhatsApp chatbot with QR-code pairing (Baileys) \u2014 scan from Linked Devices, plus a shareable customer QR and web dashboard.",
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "scripts": {
     "start": "node src/server.js",
